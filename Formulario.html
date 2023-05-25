@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de los asistentes a un evento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center><h1>Encuesta de opiniones sobre el evento</h1></center>
+<center><form name = "Formulario" method = "post" action=" /send.php"></center>
+        <fieldset>
+                <P>
+                <center><b>Sexo:</b><br></center>
+                <center><input type = "checkbox" name ="M">M<br></center>
+                <center><input type = "checkbox" name ="F">F<br></center>
+                </P>
+        <center><label for ="name"><b>Nombre completo:</b></label></center>
+        <center><input type ="text" name = "nombre" value="" id="name"/><br></center>
+        <center><label for ="name"><b>Correro electronico:</b></label></center>
+        <center><input type ="text" name = "nombre" value="" id="name"/><br></center>
+        <center><label for ="name"><b>Edad:</b></label></center>
+        <center><input type ="number" name = "numero" value="0" min="1" max="100" step="1"/><br></center>
+
+        <P>
+        <center><b>¿Qué te parece el evento?</b><br></center>
+        <center><input type = "checkbox" name ="Talla S">Excelente<br></center>
+        <center><input type = "checkbox" name ="Bueno">Bueno<br></center>
+        <center><input type = "checkbox" name ="Regular">Regular<br></center>
+        <center><input type = "checkbox" name ="Malo">Malo<br></center>
+        </P>
+        <P>
+        <center><b>¿Que duracion te gustaria que tuviera el evento?</b><br></center>
+        <center><input type = "checkbox" name ="1 horas">1 horas<br></center>
+        <center><input type = "checkbox" name ="2 horas">2 horas<br></center>
+        <center><input type = "checkbox" name ="3 horas">3 horas<br></center>
+        <center><input type = "checkbox" name ="4 horas">4 horas<br></center>
+        </P>
+        <P>
+            <center><b>¿Donde te gustaria que fuera el proximo evento?</b><br></center>
+            <center><input type = "checkbox" name ="Mexico">Mexico<br></center>
+            <center><input type = "checkbox" name ="Estados Unidos">Estados Unidos<br></center>
+            <center><input type = "checkbox" name ="Canada">Canada<br></center>
+            <center><input type = "checkbox" name ="Peru">Peru<br></center>
+        </P>
+        <center><select>
+            <center><option value = "HTML"> <b>¿Crees que el evento cumplio con tus espectativas?:</b></option></center>
+            <center><option  value = "HTML">Si</option></center>
+                <center><option  value = "HTML">No</option></center>
+        </select></center><br>
+        <center><textarea name = "comentarios" rows="10" cols ="40">"Agrega tu comentario sobre como te pereció el evento"</textarea><br></center>
+        <center><input type="submit" value = "Enviar" /><br></center>
+    </fieldset>
+    </form>
+     
+</body>
+</html>
